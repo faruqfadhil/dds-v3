@@ -8,8 +8,8 @@
   <p><?php echo 'We are running PHP, version: ' . phpversion(); ?></p>
   <?
    $database ="zavrel_db";
-   $user = "user";
-   $password = "password";
+   $user = "root";
+   $password = "secret";
    $host = "mysql";
 
    $connection = new PDO("mysql:host={$host};dbname={$database};charset=utf8", $user, $password);
